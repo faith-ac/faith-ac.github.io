@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>信·AC动漫联盟！</title>
+		<link rel="sourtcut icon" href="../../image/logo.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="../../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/usuall.css" />
+	</head>
+	<body>
+		<div id="home">
+			<article class="flex" id="top">
+				<div id="logo">
+					<img src="../../svg/logo-web.svg" width="200px" height="50px" />
+				</div>
+				<div id="menus">
+					<article class="flex">
+						<div class="menus"><a href="index.html" style="color: #5CA2DF;">主頁</a></div>
+						<div class="menus"><a href="dance.html" target="_blank">宅舞部</a></div>
+						<div class="menus"><a href="hanfu.html" target="_blank">漢服社</a></div>
+						<div class="menus"><a href="ntkw.html" target="_blank">夏川工作組</a></div>
+					</article>
+				</div>
+			</article>
+			<hr color="#5CA2DF" size="4px" />
+			<div id="ppt">
+				<div id="welcome">
+					<h1>歡迎來到信·AC动漫联盟</h1>
+					<p>這裡是一群對動漫有著的濃厚興趣的人所組成的集體，我們歡迎所有的ACGN文化愛好者。</p>
+					<a href="joinin.html" target="_blank" class="button">
+						<div>加入我們</div>
+					</a>
+				</div>
+			</div>
+			<div id="biaozhu">
+				信·AC动漫联盟：專注ACGN文化和計算機技術
+			</div>
+			<div id="act">
+				<p>社團活動<br />
+					<i>我們不僅僅是一群充滿熱情的動漫愛好者，同時也樂於學習各種專業知識來豐富自己的課餘生活。</i>
+				</p>
+				<article class="flex">
+					<article class="flex">
+						<div class="act">
+							<img src="../../svg/play-circle.svg" width="35px" height="35px" />
+							<p>Cosplay&宅舞</p>
+							<div>
+								這是我們最受歡迎的活動，對外交流也最為廣泛。我們歡迎各位小姐姐參與。
+							</div>
+						</div>
+						<div class="act">
+							<img src="../../svg/edit.svg" width="35px" height="35px" />
+							<p>計算機&繪畫</p>
+							<div>
+								技術大佬聚集地，包括編程、設計、剪輯、繪畫。歡迎各位大佬前來助力。
+							</div>
+						</div>
+					</article>
+					<article class="flex">
+						<div class="act">
+							<img src="../../svg/instagram.svg" width="35px" height="35px" />
+							<p>攝影</p>
+							<div>
+								攝影師的是我們社團最重要的成員之一，負責活動記錄，漫展拍照及視頻錄製。
+							</div>
+						</div>
+						<div class="act">
+							<img src="../../svg/check-square.svg" width="35px" height="35px" />
+							<p>組織活動</p>
+							<div>
+								每一個組織，都需要一個領導者，這個領導者負責整個組織的活動安排。
+							</div>
+						</div>
+					</article>
+				</article>
+				<button type="button" id="allactbutton" onclick="allact()">
+					更多
+				</button>
+				<script type="text/javascript">
+					var i = 0;
+
+					function allact() {
+						if (i == 0) {
+							document.getElementById("allactout").style.transform = "scaleY(1)";
+							document.getElementById("allactout").style.maxHeight = "1200px";
+							i = 1;
+						} else {
+							document.getElementById("allactout").style.maxHeight = "0px";
+							document.getElementById("allactout").style.transform = "scaleY(0)";
+							i = 0;
+						}
+					}
+				</script>
+				<div id="allactout">
+					<div id="allact">
+						<article class="flex">
+							<article class="flex">
+								<div class="allact">
+									<img src="../../svg/circle.svg" width="35px" height="35px" />
+									<p>JK制服</p>
+									<div>
+										JK制服原本是指日本女高中生的校服，隨著ACGN文化的傳播逐漸進入大眾視野。
+									</div>
+								</div>
+								<div class="allact">
+									<img src="../../svg/hanfu.svg" width="35px" height="35px" />
+									<p>漢服</p>
+									<div>
+										漢服是漢族的民族服飾，定型於周朝，傳承於秦朝。今雖不常見卻甚是唯美。
+									</div>
+								</div>
+							</article>
+							<article class="flex">
+								<div class="allact">
+									<img src="../../svg/lolita.svg" width="50px" height="35px" />
+									<p>Lolita服飾</p>
+									<div>
+										Lolita服飾及哥特、甜美和復古風格做為基礎的服飾。小姐姐穿lo群很漂亮噠！
+									</div>
+								</div>
+								<div class="allact">
+									<img src="../../svg/flag.svg" width="35px" height="35px" />
+									<p>漫展</p>
+									<div>
+										我們會時常組織去漫展的活動，帶上你的本命，一起參加去ACGN大集會吧！
+									</div>
+								</div>
+							</article>
+						</article>
+						<article class="flex">
+							<article class="flex">
+								<div class="allact">
+									<img src="../../svg/code.svg" width="35px" height="35px" />
+									<p>編程</p>
+									<div>
+										編程是一個很有意思且具有挑戰性的活動，我們歡迎各路編程大佬前來參與。
+									</div>
+								</div>
+								<div class="allact">
+									<img src="../../svg/film.svg" width="35px" height="35px" />
+									<p>多媒體製作</p>
+									<div>
+										多媒體製作囊括視頻剪輯、音樂創作、圖像處理、3D模型等，若感興趣歡迎加入。
+									</div>
+								</div>
+							</article>
+							<article class="flex">
+								<div class="allact">
+									<img src="../../svg/file.svg" width="35px" height="35px" />
+									<p>文案&輕小說</p>
+									<div>
+										文案大佬和輕小說作家是我們重要的人才，所有人都可以在這裡自由創作。
+									</div>
+								</div>
+								<div class="allact">
+									<img src="../../svg/birthday-cake.svg" width="35px" height="35px" />
+									<p>線下集會</p>
+									<div>
+										大型沙雕群友集會現場，以及外校友人前來助興，每一次線下集會都玩的開心。
+									</div>
+								</div>
+							</article>
+						</article>
+					</div>
+				</div>
+			</div>
+			<div id="zhanshi">
+				<p>社團展示<br />
+					<i>記錄著我們生活在這裡的點點滴滴。</i>
+				</p>
+				<article class="flex">
+					<article class="flex">
+						<div class="zhanshi">
+							<a href="photo.html" target="_blank">
+								<div id="z1"></div>
+								<div class="zlabel">
+									<p>
+										<label>照片墻</label>
+										<br />
+										日常記錄相冊
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="zhanshi">
+							<a href="make.html" target="_blank">
+								<div id="z2"></div>
+								<div class="zlabel">
+									<p>
+										<label>會員作品</label>
+										<br />
+										社團成員的個人作品
+									</p>
+								</div>
+							</a>
+						</div>
+					</article>
+					<article class="flex">
+						<div class="zhanshi">
+							<a href="video.html" target="_blank">
+								<div id="z3"></div>
+								<div class="zlabel">
+									<p>
+										<label>宣傳視頻</label>
+										<br />
+										2019年納新宣傳視頻
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="zhanshi">
+							<a href="link.html" target="_blank">
+								<div id="z4"></div>
+								<div class="zlabel">
+									<p>
+										<label>聯繫方式</label>
+										<br />
+										管理及主要成員聯繫方式
+									</p>
+								</div>
+							</a>
+						</div>
+					</article>
+				</article>
+			</div>
+			<div id="news">
+				<p>最新消息<br />
+					<i>社團信息、活動發布都在這裡哦。</i>
+				</p>
+				<iframe src="../../news.html" scrolling="no" border="0" frameborder="no" framespacing="0"> </iframe>
+			</div>
+			<footer>
+				<div id="yejiao">
+					<article class="flex">
+						<div>
+							<div id="ls">
+								<div>
+									<img src="../../svg/globe-asia.svg" width="20px" height="20px" />
+									Language
+								</div>
+								<div id="language">
+									<a href="../../index.html" target="_blank">
+										<div>简体中文</div>
+									</a>
+									<a href="../zh-tw/index.html" target="_blank">
+										<div>繁体中文</div>
+									</a>
+									<a href="../en-us/index.html" target="_blank">
+										<div>English</div>
+									</a>
+									<a href="../ja-jp/index.html" target="_blank">
+										<div>日本語</div>
+									</a>
+									<div id="lanlit">
+										<img src="../../svg/jiantou.svg" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="login">
+							<a href="https://github.com/faith-ac/faith-ac.github.io" target="_blank">项目地址</a>
+							<a href="licenses.html" target="_blank">LICENSE</a>
+							<a href="about.html" target="_blank">关于</a>
+						</div>
+					</article>
+				</div>
+				<div id="footer">
+					<article class="flex">
+						<div>
+							本網站由<i>夏川工作組</i> 設計製作，禁止用於各種商業用途。
+							<br />
+							郵箱：<i>kinneg@126.com</i>
+							<br />
+							The website is hosted on <a href="https://www.github.com" target="_blank"><img src="../../svg/github.svg" />GitHub</a>
+							and follows the GPL-3.0.
+						</div>
+						<div style="text-align: right;">
+							為保證最佳瀏覽效果，建議使用<a href="http://www.google.com/chrome" target="_blank"><img src="../../svg/chrome.svg" />Chrome</a>、<a
+							 href="http://www.firefox.com/" target="_blank"><img src="../../svg/firefox.svg" />Firefox</a>和<a href=" https://www.microsoft.com/en-us/windows/microsoft-edge"
+							 target="_blank"><img src="../../svg/edge.svg" />Edge</a>
+						</div>
+					</article>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

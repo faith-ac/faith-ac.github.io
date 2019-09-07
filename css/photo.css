@@ -1,0 +1,399 @@
+@charset "utf-8";
+/*
+div{
+	outline: white 1px solid;
+}
+*/
+#照片墙 {
+	background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 7250px;
+	font-size: 0;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#照片墙01 {
+	width: 900px;
+	height: 665px;
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	color: white;
+}
+
+#照片墙01,
+#照片墙01毛玻璃外部 {
+	width: 900px;
+	height: 665px;
+	top: 200px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#照片墙01>div {
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#照片墙01>div>div {
+	flex: 1;
+}
+
+#照片墙01>div>div>div {
+	margin: 0 auto;
+	text-align: center;
+	width: 270px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#照片墙01>div>div>div>img {
+	width: 270px;
+}
+
+.照片墙01竖 {
+	height: 405px;
+}
+
+.照片墙01横 {
+	height: 180px;
+}
+
+#照片墙02 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙02,
+#照片墙02毛玻璃外部 {
+	width: 900px;
+	height: 1050px;
+	top: 990px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#照片墙02>div {
+	margin-bottom: 9px;
+}
+
+#照片墙02-1>div {
+	margin-top: 35px;
+	width: 415px;
+}
+
+#照片墙02-2>div {
+	width: 277px;
+}
+
+#照片墙02-1 {
+	height: 300px;
+}
+
+#照片墙02-2 {
+	height: 400px;
+}
+
+#照片墙02-2>div>img {
+	position: relative;
+	top: -25px;
+}
+
+#照片墙02-3 {
+	height: 300px;
+}
+
+#照片墙02-3>img {
+	position: relative;
+	top: -175px;
+}
+
+#照片墙02-1,
+#照片墙02-2,
+#照片墙02-3 {
+	margin: 0 auto;
+	width: 840px;
+}
+
+#照片墙02-1>div,
+#照片墙02-2>div {
+	flex: 1;
+}
+
+#照片墙02-1>div,
+#照片墙02-2>div,
+#照片墙02-3,
+#照片墙02-2-2>div {
+	overflow: hidden;
+}
+
+#照片墙02-1-1 {
+	margin-right: 10px;
+}
+
+#照片墙02-2-2 {
+	margin: 0px 9px 0px 9px;
+}
+
+#照片墙02-2-2>div {
+	height: 195px;
+	margin-bottom: 10px;
+}
+
+#照片墙02-1-1,
+#照片墙02-1-2,
+#照片墙02-2-1,
+#照片墙02-2-2>div,
+#照片墙02-2-3,
+#照片墙02-3 {
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#照片墙03 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙03,
+#照片墙03毛玻璃外部 {
+	width: 900px;
+	height: 900px;
+	top: 2165px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+table {
+	width: 825px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.照片墙表格竖 {
+	width: 275px;
+	height: 550px;
+}
+
+.照片墙表格横 {
+	width: 550px;
+	height: 275px;
+}
+
+.照片墙表格方 {
+	width: 275px;
+	height: 275px;
+}
+
+.照片墙表格方>div {
+	width: 265px;
+	height: 265px;
+}
+
+.照片墙表格竖>div {
+	width: 265px;
+	height: 540px;
+}
+
+.照片墙表格横>div {
+	width: 540px;
+	height: 265px;
+}
+
+.照片墙表格横>div>img {
+	top: -75px;
+}
+
+.照片墙表格竖>div>img {
+	left: -65px;
+}
+
+.照片墙表格方>div>img {
+	top: -7px;
+}
+
+.照片墙表格方>div>img,
+.照片墙表格横>div>img,
+.照片墙表格竖>div>img {
+	position: relative;
+}
+
+.照片墙表格方>div,
+.照片墙表格横>div,
+.照片墙表格竖>div {
+	overflow: hidden;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#照片墙04 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙04,
+#照片墙04毛玻璃外部 {
+	width: 900px;
+	height: 900px;
+	top: 3190px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#照片墙04>div{
+	margin: 0 auto;
+	width: 825px;
+}
+
+#照片墙04>div>div{
+	flex: 1;
+	height: 265px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+#照片墙04-1>div{
+	margin-top: 37.5px;
+}
+#照片墙04-2>div{
+	width: 265px;
+}
+
+#照片墙04-1>div,
+#照片墙04-2>div{
+	margin-bottom: 10px;
+}
+.照片墙04--1{
+	width:407.5px ;
+	margin-right:10px;
+}
+.照片墙04--2{
+	margin: 0px 10px 0px 10px;
+}
+
+#照片墙05 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙05,
+#照片墙05毛玻璃外部 {
+	width: 900px;
+	height: 900px;
+	top: 4240px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+#照片墙05>div{
+	width: 825px;
+	height: 825px;
+	margin: 37.5px;
+}
+#照片墙05>div>div{
+	flex: 1;
+}
+#照片墙05>div>div>div{
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+#照片墙05-2{
+	margin: 0px 9px 0px 9px;
+}
+
+#照片墙05-1>div{
+	height: 269px;
+}
+#照片墙05-2>div{
+	height: 408px;
+}
+#照片墙05-3>div{
+	height: 269px;
+	width: 269px;
+}
+#照片墙05-1,
+#照片墙05-2,
+#照片墙05-1{
+	width: 269px;
+}
+.照片墙05--2{
+	margin: 9px 0px 9px 0px;
+}
+.照片墙05--1{
+	margin-bottom: 9px;
+}
+
+#照片墙06 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙06,
+#照片墙06毛玻璃外部 {
+	width: 900px;
+	height: 900px;
+	top: 5265px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#照片墙07 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+}
+
+#照片墙07,
+#照片墙07毛玻璃外部 {
+	width: 900px;
+	height: 900px;
+	top: 6290px;
+	border-radius: 10px;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+#照片墙07>div{
+	width: 825px;
+	height: 825px;
+	margin: 37.5px;
+}
+#照片墙07>div>div{
+	flex: 1;
+}
+#照片墙07>div>div>div{
+	width: 269px;
+	height: 269px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+.照片墙07-1{
+	margin: 0px 9px 0px 9px;
+}
+.照片墙07-2{
+	margin: 9px 0px 9px 0px;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#联系方式{
+	margin: 50px 100px 75px 100px;
+}
+#标题{
+	margin: 0 auto;
+	margin-bottom:50px;
+	max-width: 950px;
+	min-width: 850px;
+	color: #354656
+}
+
+#联系方式>article{
+	margin: 0 auto;
+	max-width: 1000px;
+	min-width: 800px;
+	margin-bottom: 50px;
+}
+
+.内容{
+	background-color: #F7F7F7;
+	padding: 30px 60px 30px 60px;
+	border: #E2E6E8 1px solid;
+	margin: 10px 5px 10px 5px;
+	border-radius: 5px;
+	color: #354656;
+	font-size: 16px;
+}
+.内容>label{
+	font-size: 25px;
+}
+
+.图1{
+	background-image:url(../image/link1.webp);
+}
+.图2{
+	background-image:url(../image/link2.webp);
+}
+.图3{
+	background-image:url(../image/link3.webp);
+}
+.图1,
+.图2,
+.图3{
+	background-color: #F7F7F7;
+	border: #E2E6E8 1px solid;
+	margin: 10px 5px 10px 5px;
+	border-radius: 5px;
+	color: #354656;
+	font-size: 16px;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

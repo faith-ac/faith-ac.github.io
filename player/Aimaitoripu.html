@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#skPlayer{
+				margin-left: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="skPlayer"></div>
+		<script src="../skPlayer-3.0/dist/skPlayer.min.js"></script>
+		<script>
+			var player = new skPlayer({
+				autoplay: false,
+				listshow: false,
+				music: {
+					type: 'file',
+					source:[
+						{
+							name:'Aimaitoripu',
+							author:'Qisato/Yunomi',
+							src:'../audio/Aimaitoripu.mp3',
+							cover: '../audio/Aimaitoripu.webp'
+						}
+					]
+				}
+			});
+		</script>
+	</body>
+</html>

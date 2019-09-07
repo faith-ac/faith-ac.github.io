@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#会员作品 {
+	margin: 50px 100px 150px 100px;
+	color: #354656;
+	font-size: 18px;
+}
+
+#标题 {
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding-left: 5px;
+	max-width: 950px;
+	min-width: 800px;
+}
+
+#suli,
+#qisato {
+	margin: 0 auto;
+	margin-bottom: 100px;
+	max-width: 950px;
+	min-width: 800px;
+}
+
+.会员 {
+	font-size: 25px;
+	margin: 10px 10px 15px 10px;
+}
+
+.会员>span {
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.suli标题 {
+	margin: 10px;
+}
+
+#suli02,
+#suli04 {
+	text-align: right;
+}
+
+.qisato标题 {
+	margin: 5px 10px 20px 10px;
+}
+#qisato>article{
+	margin: 0 auto;
+	max-width: 885px;
+	min-width: 800px;
+}
+.qisato01left,
+.qisato01right {
+	flex: 1;
+}
+
+.qisato01left,
+.qisato01right {
+	min-width: 400px;
+	max-width: 475px;
+}
+
+.qisato01left>div>iframe,
+.qisato01right>div>iframe {
+	margin: 10px 0px 10 0px;
+	width: 395px;
+	height: 250px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.qisato01left>div {
+	float: left;
+}
+
+.qisato01right>div {
+	float: right;
+}
+.qisato02{
+	margin-top: 50px;
+}
+.qisato标题2 {
+	margin: 0px 10px 15px 35px;
+}
+.qisato03{
+	margin-top: 30px;
+	text-align: right;
+}

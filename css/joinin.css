@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+#home {
+	background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-size: 18px;
+	height: 3210px;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#文案 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	color: white;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	margin-left: 100px;
+}
+
+#文案>div {
+	margin: 45px 50px 50px 50px;
+}
+
+#文案,
+#文案毛玻璃外部 {
+	width: 575px;
+	height: 325px;
+	top: 175px;
+	border-radius: 10px;
+	margin-left: 100px;
+}
+
+#by {
+	text-align: right;
+}
+
+#社团信息 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	color: white;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#社团信息>div {
+	margin: 45px 50px 50px 50px;
+}
+
+#社团信息,
+#社团信息毛玻璃外部 {
+	top: 600px;
+	border-radius: 10px;
+	width: 750px;
+	height: 235px;
+	margin-right: 100px;
+	right: 0;
+}
+
+#招新 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	color: white;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#招新>div {
+	margin: 60px 50px 50px 50px;
+}
+
+#招新,
+#招新毛玻璃外部 {
+	top: 1035px;
+	border-radius: 10px;
+	margin: 0px 100px 0px 100px;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	min-width: 600px;
+	height: 450px;
+}
+
+#招新>div>article {
+	margin-bottom: 30px;
+}
+
+#招新标题1 {
+	flex: 3;
+	text-align: right;
+	padding: 10px 25px 0px 0px;
+}
+
+#招新标题2 {
+	flex: 4;
+	border-left: white 2px solid;
+	padding-left: 25px;
+}
+
+.招新条件 {
+	margin: 0 auto;
+	max-width: 850px;
+	font-size: 22px;
+	height: 58px;
+}
+
+#联系方式 {
+	background-color: rgba(255, 255, 255, 0.25);
+	color: white;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#联系方式>div {
+	margin: 60px 50px 50px 50px;
+}
+
+#联系方式,
+#联系方式毛玻璃外部 {
+	position: absolute;
+	top: 1585px;
+	border-radius: 10px;
+	margin: 0px 100px 0px 100px;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	min-width: 600px;
+	height: 850px;
+}
+
+#联系方式标题 {
+	font-size: 45px;
+	text-align: center;
+}
+
+.联系方式内容 {
+	font-size: 25px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px 100px 25px 50px;
+}
+
+#联系方式二维码 {
+	margin: 0 auto;
+}
+
+#联系方式二维码>div {
+	flex: 1;
+	text-align: center;
+}
+
+#宅基部注{
+	font-size: 12px;
+	text-align: right;
+	margin-top: 75px;
+}
+
+#欢迎 {
+	background-color: rgba(255, 255, 255, 0.25);
+	position: absolute;
+	color: white;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+#欢迎,
+#欢迎毛玻璃外部 {
+	top: 2535px;
+	border-radius: 10px;
+	margin: 0px 100px 0px 100px;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	min-width: 600px;
+	height: 375px;
+}
+
+#欢迎加入 {
+	margin-top: 80px;
+	text-align: center;
+}

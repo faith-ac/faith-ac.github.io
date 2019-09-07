@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#skPlayer{
+				margin-left: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="skPlayer"></div>
+		<script src="../skPlayer-3.0/dist/skPlayer.min.js"></script>
+		<script>
+			var player = new skPlayer({
+				autoplay: false,
+				listshow: false,
+				music: {
+					type: 'file',
+					source:[
+						{
+							name:'枕边幽灵',
+							author:'Qisato/Aiobahn/Yunomi',
+							src:'../audio/枕边幽灵.mp3',
+							cover: '../audio/枕边幽灵.webp'
+						}
+					]
+				}
+			});
+		</script>
+	</body>
+</html>

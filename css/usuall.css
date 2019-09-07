@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	min-width: 1000px;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+	margin: 0 auto;
+	cursor: default;
+}
+
+#home{
+	animation: fadein 800ms ease 1;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.flex {
+	display: flex;
+}
+
+#logo {
+	flex: 1;
+	padding: 25px 0px 0px 110px;
+}
+
+.button>div {
+	background-color: #5CA2DF;
+	width: 110px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+	transition: background-color 100ms ease;
+}
+
+.button>div:hover {
+	background-color: #4f95d1;
+}
+
+#menus {
+	flex: 1;
+	margin-top: 35px;
+}
+
+#menusen {
+	flex: 1;
+	margin-top: 30px;
+}
+
+#menus>article {
+	width: 450px;
+	float: right;
+	padding-right: 95px;
+}
+
+#menusen>article {
+	width: 500px;
+	float: right;
+	padding-right: 95px;
+}
+
+.menus {
+	flex: 1;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.menus>a {
+	color: #354656;
+	transition: color 100ms ease;
+}
+
+.menus>a:hover {
+	color: #5CA2DF;
+}
+
+#top {
+	height: 90px;
+	background-color: white;
+}
+
+hr {
+	margin: 0px;
+}
+
+#yejiao {
+	background-color: #344656;
+	color: white;
+	font-size: 14px;
+	padding: 20px 50px 20px 50px;
+}
+
+#ls>div>img {
+	vertical-align: bottom;
+}
+
+#yejiao>article>div {
+	flex: 1;
+}
+
+#login {
+	text-align: right;
+}
+
+#login>a {
+	margin-left: 20px;
+	transition: color 100ms ease;
+}
+
+#login>a:hover {
+	color: #EEEEEE;
+}
+
+#footer {
+	padding: 20px 50px 20px 50px;
+	color: #737F85;
+	font-size: 14px;
+	background-color: white;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#home {
+	box-sizing: border-box;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 150px;
+}
+
+#ls {
+	width: 120px;
+	display: inline-block;
+}
+
+#ls:hover #language {
+	display: block;
+}
+
+#lsc {
+	transform: color 100ms ease;
+}
+
+#ls:hover #lsc {
+	color: #EEEEEE;
+}
+
+#language {
+	position: absolute;
+	bottom: 125px;
+	display: none;
+}
+
+#language>a>div {
+	background-color: #344656;
+	text-align: center;
+	font-size: 16px;
+	width: 100px;
+	padding: 12px 0px 12px 0px;
+	transition: background-color 50ms ease;
+}
+
+#language>a>div:hover {
+	background-color: #253543;
+}
+
+#lanlit {
+	text-align: center;
+	height: 40px;
+}
+
+#lanlit>img {
+	width: 15px;
+	vertical-align: top;
+	position: relative;
+	top: -0.5px;
+}
+
+#language>a,
+#login>a {
+	color: white;
+}
+
+#footer>article>div {
+	flex: 1;
+}
+
+#footer>article>div>a>img {
+	width: 17px;
+	vertical-align: bottom;
+	text-align: right;
+	margin: 0px 1px 0px 2px;
+}
+
+#footer>article>div>a {
+	color: #737F85;
+}
+
+/*毛玻璃特效*/
+
+.毛玻璃 {
+	background-image: url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	filter: blur(15px);
+	width: 1000%;
+	height: 1000%;
+	position: relative;
+	bottom: 200%;
+	right: 200%;
+}
+
+.毛玻璃外部 {
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	position: absolute;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
