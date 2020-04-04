@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
+html { filter: grayscale(100%);}
 
 body {
 	margin: 0px;
