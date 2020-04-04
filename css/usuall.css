@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-html{filter:gray;}
+*{filter:gray;}
 
 body {
 	margin: 0px;
