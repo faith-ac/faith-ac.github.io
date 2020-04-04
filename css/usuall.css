@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }
-
 body {
 	margin: 0px;
 	min-width: 1000px;
@@ -9,6 +7,8 @@ body {
 	box-sizing: border-box;
 	margin: 0 auto;
 	cursor: default;
+
+	filter: grascale(100%)
 }
 
 #home{
